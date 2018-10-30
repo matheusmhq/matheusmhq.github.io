@@ -1,0 +1,259 @@
+body {
+    height: 500em;
+}
+
+/* HEADER */
+
+header {
+     border-bottom: 1px solid #ddd;
+}
+
+.nav-edit {
+    padding-top: 1.5em !important;
+    padding-bottom: 1.5em !important;
+}
+
+.btn-edit {
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-nav li::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: .9px;
+        background: #f0f0f0;
+    }
+    .navbar-nav li:last-child::after {
+        display: none;
+    }
+}
+
+
+/* ////////////////////////////////// */
+
+
+/* SLIDER */
+
+
+#particles-js {
+    width: 100%;
+}
+
+.slider-bg {
+    width: 100%;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+}
+
+.texto-fixo {
+    color: white;
+    font-size: 5em;
+    text-shadow: 1px 1px 10px black;
+    font-family: 'Raleway', sans-serif;
+}
+
+#texto-com-efeito {
+    font-size: 3em;
+    color: #ffffff;
+    border-right: 2px white solid;
+    text-shadow: 1px 1px 10px black;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+    .slider-foto {
+        background: url(../img/slider/desktop/foto-01.jpeg) no-repeat center;
+        width: 100%;
+        height: 90vh;
+    }
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .slider-foto {
+        background: url(../img/slider/desktop/foto-01.jpeg) no-repeat center;
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .texto-fixo {
+        font-size: 3em !important;
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+    #texto-com-efeito {
+        font-size: 1.5em !important;
+    }
+
+}
+
+
+/* ARRUMANDO LETRA PARA IPHONE 5 E 6 */
+@media screen and (max-width: 450px) {
+    .texto-fixo {
+        font-size: 2em !important;
+    }
+    
+    #texto-com-efeito {
+        font-size: 1.2em !important;
+    }
+}
+
+
+
+/* //////////////////// */ 
+
+
+
+/* SOBRE E HABILIDADES*/
+.sobre-foto {
+    
+}
+
+.sobre-foto img {
+    border-radius: 100%;
+}
+
+.sobre-texto p {
+    font-size: 22px;
+}
+
+#habilidades {
+    margin-top: 5em;
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) { 
+    #habilidades {
+        margin-top: 0;
+    }
+}
+
+
+#habilidades img {
+    height: auto;
+    max-height: 100px;
+}
+
+.habilidades-menor img {
+    max-height: 70px !important;
+}
+
+
+/* /////////////////////////// */
+
+/* SERVIÇOS */
+
+#servicos {
+    background: rgba(221, 221, 221, 0.21);
+    width: 100%;
+    padding: 3em 0;
+}
+
+#servicos i {
+    font-size: 3em;
+    color: #01749a;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.servicos-all div {
+    cursor: pointer;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+
+.card-edit:hover {
+    transform: translateY(-10px);
+}
+
+
+
+/* //////////////////////////////// */
+
+/* VOCE SABIA */
+
+#voce-sabia {
+    background: url(../img/voce-sabia/foto-01.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+.vs-color {
+    background: rgba(20, 23, 25, 0.85);
+    padding: 3em 0;
+}
+
+.voce-sabia-bg img {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 767px) { 
+    .voce-sabia-bg img {
+        margin-top: 25px;
+    }
+}
+
+.vs-titulo {
+    font-size: 50px;
+}
+
+.vs-titulo-02 {
+    font-size: 20px !important; 
+}
+
+
+/* //////////////////////////// */
+
+/* PORTFOLIO */
+
+#portfolio {
+    padding: 3em 0;
+    background: rgba(221, 221, 221, 0.21);
+}
+
+.tag {
+    background: rgb(74, 74, 74);
+    padding: 0 5px;
+    float: right;
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom-left-radius: 5px; 
+}
+
+.card-img-overlay {
+    padding: 0 !important;
+    height: 25px;
+}
+
+.card-text:last-child {
+  margin-bottom: 4px;
+}
+
+.tecnologias-usada {
+    padding: 2px 5px;
+    margin: 0 2px;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.tecnologias-usada-all {
+    padding: 0 1em;
+    margin-bottom: 10px;
+}
+
+.card-text:last-child {
+  margin-bottom: 4px !important;
+}
