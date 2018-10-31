@@ -86,3 +86,25 @@ h2::after {
     border-color: rgba(255, 0, 0, 0) white rgba(0, 0, 255, 0) rgba(255, 204, 0, 0);
     border-width: 100px 1920px 20px 50px;
 }
+
+
+/* CLASSES MENU FIXO E ATIVO */
+
+.menu-active {
+    font-weight: bold;
+}
+
+.menu-fixo {
+    position: fixed;
+    z-index: 10;
+    padding-top: .0em !important;
+    padding-bottom: .0em !important;
+}
+
+.no-padding {
+    padding-top: .5em !important;
+    padding-bottom: .5em !important;
+}
+
+
+
