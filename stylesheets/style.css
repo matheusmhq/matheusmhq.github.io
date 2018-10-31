@@ -120,9 +120,6 @@ header {
 
 
 /* SOBRE E HABILIDADES*/
-.sobre-foto {
-    
-}
 
 .sobre-foto img {
     border-radius: 100%;
@@ -130,6 +127,10 @@ header {
 
 .sobre-texto p {
     font-size: 22px;
+}
+
+.sobre-texto p strong {
+    color: #717171;
 }
 
 #habilidades {
