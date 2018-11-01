@@ -210,6 +210,12 @@ header {
     }
 }
 
+@media screen and (max-width: 1000px) { 
+    .voce-sabia-bg img {
+        width: 300px !important;
+    }
+}
+
 .vs-titulo {
     font-size: 50px;
     font-weight: bold;
@@ -280,7 +286,7 @@ header {
 /* FRASE */
 
 #frase {
-    background: url(../img/frase/foto-01.jpg) no-repeat center;
+    background: url(../img/frase/foto-01.jpg) no-repeat bottom;
     width: 100%;
 }
 
