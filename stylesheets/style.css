@@ -149,6 +149,12 @@ header {
     }
 }
 
+@media screen and (max-width: 500px) {
+    .habilidades-separado {
+        width: 150px !important;
+    }
+}
+
 
 #habilidades img {
     height: auto;
