@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var date = new Date();
   var year = date.getFullYear();
-  $(".year").html(year);
+  $(".year").text(year);
 
   //FECHAR MENU BOOTSTRAP APOS CLICK
   $(".navbar-nav li a").click(function () {
