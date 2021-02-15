@@ -4,14 +4,12 @@
 	</a>
 </p>
 
-# Meu Portfólio
+Olá, me chamo Matheus e esse é o meu portfólio.
 
-Olá me chamo Matheus e esse é o meu portfólio.
-
-Sou desenvolvedor web front-end.
+Sou desenvolvedor web e mobile com foco em front-end.
 
 ## Sobre
 
-Para conhecer mais sobre mim e meu trabalho acesse: https://matheusmhq.com.br
+Para conhecer mais sobre mim e meu trabalho acesse: [Matheus MHQ](https://matheusmhq.com.br)
 
-Obrigado! =)
+Obrigado! 😀😀😀
