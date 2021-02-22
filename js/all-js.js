@@ -60,4 +60,110 @@ $(document).ready(function () {
       }
     });
   });
+
+  var projects = [
+    {
+      title: "Pokedex",
+      description: "Desenvolvimento e publicação",
+      img: "pokedex",
+      type: "React app",
+      tags: ["React Js", "CSS3", "Bootstrap 4"],
+      url: "https://pokedex-up.netlify.app",
+    },
+    {
+      title: "TMDB React Js",
+      description: "Desenvolvimento e publicação",
+      img: "tmdb-react-js",
+      type: "React app",
+      tags: ["React Js", "CSS3", "Bootstrap 4"],
+      url: "https://tmdb-movies.netlify.com",
+    },
+    {
+      title: "Random Movie",
+      description: "Desenvolvimento e publicação",
+      img: "random-movie",
+      type: "React app",
+      tags: ["React Js", "CSS3", "Bootstrap 4"],
+      url: "https://random-movie.netlify.app",
+    },
+    {
+      title: "Cebolinha BUrger",
+      description: "Desenvolvimento e publicação",
+      img: "cebolinha-burger",
+      type: "Website",
+      tags: ["Html5", "CSS3", "Bootstrap 4", "Jquery", "Wordpress"],
+      url: "https://cebolinhaburger.com",
+    },
+    {
+      title: "Igreja Pentecostal Casa de louvor",
+      description: "Desenvolvimento e publicação",
+      img: "casa-de-louvor",
+      type: "Website",
+      tags: ["Html5", "CSS3", "Sass", "Javascript", "Jquery"],
+      url: "https://casadelouvor.org.br",
+    },
+    {
+      title: "Vega - Agronegocio",
+      description: "Desenvolvimento e publicação",
+      img: "vega-agro",
+      type: "Landing page",
+      tags: ["Html5", "CSS3", "Jquery"],
+      url: "http://www.vegaagro.com.br",
+    },
+    {
+      title: "Advocacia",
+      description: "Website de empresa fictícia",
+      img: "advocacia",
+      type: "Website",
+      tags: ["Html5", "CSS3", "Jquery"],
+      url: "https://matheusmhq.com.br/advocacia-demo/",
+    },
+  ];
+
+  var html = "";
+  projects.map((item) => {
+    var tags = "";
+    item.tags.map((tag) => {
+      tags += `
+        <p class="tecnologias-usada text-white bg-dark card-text">
+          ${tag}
+        </p>
+      `;
+    });
+    html += `
+      <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card">
+            <a
+              href="img/portfolio/original/${item.img}.jpg"
+              data-lightbox="image-1"
+              data-title="${item.title}"
+              ><img
+                class="card-img-top miniatura"
+                src="img/portfolio/miniatura/${item.img}.jpg"
+                alt="${item.title}"
+                title="${item.title}"
+            /></a>
+            <div class="card-img-overlay">
+              <span class="tag text-white">${item.type}</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">${item.title}</h5>
+              <p class="card-text">${item.description}</p>
+              <div class="row tecnologias-usada-all">
+               ${tags}
+              </div>
+              <a
+                target="_blank"
+                href="${item.url}"
+                title="Ir até o site"
+                class="btn text-white color-primary"
+                >Visitar</a
+              >
+            </div>
+          </div>
+      </div>
+    `;
+  });
+
+  $(".container-cards").append(html);
 });
