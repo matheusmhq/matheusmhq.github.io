@@ -87,7 +87,7 @@ $(document).ready(function () {
       url: "https://random-movie.netlify.app",
     },
     {
-      title: "Cebolinha BUrger",
+      title: "Cebolinha Burger",
       description: "Desenvolvimento e publicação",
       img: "cebolinha-burger",
       type: "Website",
