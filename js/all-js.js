@@ -63,7 +63,7 @@ $(document).ready(function () {
 
   var projects = [
     {
-      title: "Pokedex",
+      title: "Pokédex",
       description: "Desenvolvimento e publicação",
       img: "pokedex",
       type: "React app",
