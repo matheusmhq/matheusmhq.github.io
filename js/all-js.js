@@ -164,6 +164,5 @@ $(document).ready(function () {
       </div>
     `;
   });
-
   $(".container-cards").append(html);
 });
