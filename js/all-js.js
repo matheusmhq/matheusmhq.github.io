@@ -79,6 +79,14 @@ $(document).ready(function () {
       url: "https://tmdb-movies.netlify.com",
     },
     {
+      title: "Melau Decor",
+      description: "Desenvolvimento e publicação",
+      img: "melau-decor",
+      type: "Website",
+      tags: ["Wordpress", "CSS3", "Bootstrap 4", "Jquery"],
+      url: "https://melaudecor.com.br/",
+    },
+    {
       title: "Random Movie",
       description: "Desenvolvimento e publicação",
       img: "random-movie",
