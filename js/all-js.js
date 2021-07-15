@@ -63,6 +63,14 @@ $(document).ready(function () {
 
   var projects = [
     {
+      title: "Conectando Sócios",
+      description: "Desenvolvimento e publicação",
+      img: "conectando-socios",
+      type: "React app",
+      tags: ["React Js", "Bootstrap 4", "Redux"],
+      url: "https://conectando-socios.netlify.app",
+    },
+    {
       title: "Pokédex",
       description: "Desenvolvimento e publicação",
       img: "pokedex",
