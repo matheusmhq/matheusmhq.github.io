@@ -111,14 +111,6 @@ $(document).ready(function () {
       url: "https://cebolinhaburger.com",
     },
     {
-      title: "Igreja Pentecostal Casa de louvor",
-      description: "Desenvolvimento e publicação",
-      img: "casa-de-louvor",
-      type: "Website",
-      tags: ["Html5", "CSS3", "Sass", "Javascript", "Jquery"],
-      url: "https://casadelouvor.org.br",
-    },
-    {
       title: "Vega - Agronegocio",
       description: "Desenvolvimento e publicação",
       img: "vega-agro",
