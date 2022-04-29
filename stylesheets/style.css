@@ -67,6 +67,12 @@ header {
   min-height: 76px;
 }
 
+@media screen and (max-width: 767px) {
+  #texto-com-efeito {
+    min-height: 30px;
+  }
+}
+
 /* DESKTOP */
 @media screen and (min-width: 768px) {
   .slider-foto {
