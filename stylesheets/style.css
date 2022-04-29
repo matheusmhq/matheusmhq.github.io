@@ -64,6 +64,7 @@ header {
   border-right: 2px white solid;
   text-shadow: 1px 1px 10px black;
   font-family: "Raleway", sans-serif;
+  min-height: 76px;
 }
 
 /* DESKTOP */
