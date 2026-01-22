@@ -63,6 +63,14 @@ $(document).ready(function () {
 
   var projects = [
     {
+      title: "Estude Aqui",
+      description: "Idealização, desenvolvimento e publicação",
+      img: "estude-aqui",
+      type: "React app",
+      tags: ["React Js", "Vite", "Next Js"],
+      url: "https://estude-aqui.vercel.app",
+    },
+    {
       title: "Conectando Sócios",
       description: "Desenvolvimento e publicação",
       img: "conectando-socios",
