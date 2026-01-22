@@ -124,7 +124,7 @@ $(document).ready(function () {
       img: "advocacia",
       type: "Website",
       tags: ["Html5", "CSS3", "Jquery"],
-      url: "https://matheusmhq.com.br/advocacia-demo/",
+      url: "https://matheusmhq.com.br/advocacia-demo",
     },
   ];
 
