@@ -40,7 +40,7 @@ $(document).ready(function () {
       {
         scrollTop: $(id).offset().top - nav_height,
       },
-      500
+      500,
     );
 
     return false;
@@ -84,7 +84,7 @@ $(document).ready(function () {
       img: "tmdb-react-js",
       type: "React app",
       tags: ["React Js", "CSS3", "Bootstrap 4"],
-      url: "https://tmdb-movies.netlify.com",
+      url: "https://tmdb-movies.netlify.app",
     },
     {
       title: "Melau Decor",
@@ -92,7 +92,7 @@ $(document).ready(function () {
       img: "melau-decor",
       type: "Website",
       tags: ["Wordpress", "CSS3", "Bootstrap 4", "Jquery"],
-      url: "https://melaudecor.com.br/",
+      url: "https://melaudecor.com.br",
     },
     {
       title: "Random Movie",
